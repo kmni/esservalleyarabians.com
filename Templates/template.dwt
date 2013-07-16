@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<!-- TemplateInfo codeOutsideHTMLIsLocked="true" -->
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neithe r/ -->
+<!--[if (lt IE 7)]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7])><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if (IE 8)]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 8)]><!--> <html lang="de"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Esser Valley has established itself as a show and sales facility. Many customers choose Duane as a trainer because of his reputation for being ethical, caring, smart, and above all honest and kind to the animals in his care.">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Esser Valley Arabians</title>
+  <!-- TemplateEndEditable -->
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+<link rel="stylesheet" href="../stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="../stylesheets/app.css">
+
+  <script src="../javascripts/modernizr.foundation.js"></script>
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38045413-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="row container">
+	<div class="twelve columns">
+  <!-- Header and Nav -->
+  
+  <div class="row">
+    <div class="five columns logo">
+      <a href="index.html"><img src="../images/logo.png" /></a>
+    </div>
+    <div class="seven columns menu">
+      <ul class="nav-bar right">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="sale-horses.html">Sale Horses</a></li>
+            <li><a href="news-and-info.html">News &amp; Info</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Header and Nav -->
+  <!-- TemplateBeginEditable name="content" -->
+  <div class="row content">
+    <div class="six columns">
+      <div id="featured"> <img src="../images/home-slide/slide-01.jpg" /> <img src="../images/home-slide/slide-01.jpg" /> </div>
+    </div>
+    <div class="six columns">
+      <p>Esser Valley has established itself as a show and sales facility. Many customers choose Duane as a trainer because of his reputation for being ethical, caring, smart, and above all honest and kind to the animals in his care. Others choose Duane because they have stock to sell. Most other trainers know that if a horse came from Duane, they can call him and get the unvarnished truth about the horse. Everyone chooses him because he is a great horseman that really knows what he is looking at and looking for. Duane sells a lot of horses and he finds that more and more, people are asking him to find that special horse for them.</p>
+      <p>There is an 80' x 160' arena and 30 stalls. Plans for an indoor round pen are in the works also. The farm is small and Duane wouldn't have it any other way. &quot;I know what is going on with every horse on the property and they get my daily attention. My amateur riders get the kind of individual attention that they need to succeed on whatever level they choose to compete at.&quot; &quot;I have beginners and I have riders that have a National Championship goal. Whatever they want, it is a journey for them and I feel that they deserve my undivided attention.&quot;</p>
+      <p>Duane is also a Regional/National level judge with an international reputation. Duane enjoys judging, and takes the responsibility very seriously. &quot;I was fortunate enough to adjudicate in South Africa and the experience was unforgettable.&quot; &quot;I also judged Canadian Nationals, it was thrilling to stand in center ring at such a prestigious show.&quot; </p>
+      <h4><em>Esser Valley Arabians</em></h4>
+      <p>9057 Jordan Rd.<br>
+        Cleves, Ohio 45002</p>
+      <p>Phone:   513-941-2737<br>
+        Fax: 	   513-941-2737<br>
+        E-mail: <a href="mailto:duane@esservalleyarabians.com">duane@esservalleyarabians.com</a></p>
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- Footer -->
+  <footer class="row">
+        <div class="six columns">
+          <ul class="link-list left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="sale-horses.html">Sale Horses</a></li>
+            <li><a href="news-and-info.html">News &amp; Info</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="six columns">
+          <p align="right">&copy;2012 Esser Valley Arabians [ Design: <a href="http://www.arabhorse.com" target="_blank">Arabhorse.com</a>]</p>
+        </div>
+  </footer>
+  
+  </div>
+</div>
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.event.move.js"></script>
+  
+  <script src="javascripts/jquery.event.swipe.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="../javascripts/jquery.js"></script>
+  <script src="../javascripts/foundation.min.js"></script>
+  <script type="text/javascript">
+   $(window).load(function() {
+       $("#featured").orbit();
+   });
+</script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="../javascripts/app.js"></script>
+</body>
+</html>
