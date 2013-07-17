@@ -65,26 +65,29 @@
   <div class="row content">
     <div class="six columns" align="center">
       <div id="featured"> 
-          <img src="images/home-slide/slide-01.jpg" /> 
-          <img src="images/home-slide/slide-02.jpg" /> 
-          <img src="images/home-slide/slide-03.jpg" /> 
-          <img src="images/home-slide/slide-04.jpg" /> 
-          <img src="images/home-slide/slide-05.jpg" /> 
-          <img src="images/home-slide/slide-06.jpg" /> 
-          <img src="images/home-slide/slide-07.jpg" /> 
-          <img src="images/home-slide/slide-08.jpg" /> 
-          <img src="images/home-slide/slide-09.jpg" /> 
-          <img src="images/home-slide/slide-10.jpg" /> 
-          <img src="images/home-slide/slide-11.jpg" /> 
-          <img src="images/home-slide/slide-12.jpg" /> 
+        <img src="images/home-slide/slide-01.jpg" /> 
+        <img src="images/home-slide/slide-02.jpg" /> 
+        <img src="images/home-slide/slide-03.jpg" /> 
+        <img src="images/home-slide/slide-04.jpg" /> 
+        <img src="images/home-slide/slide-05.jpg" /> 
+        <img src="images/home-slide/slide-06.jpg" /> 
+        <img src="images/home-slide/slide-07.jpg" /> 
+        <img src="images/home-slide/slide-08.jpg" /> 
+        <img src="images/home-slide/slide-09.jpg" /> 
+        <img src="images/home-slide/slide-10.jpg" /> 
+        <img src="images/home-slide/slide-11.jpg" /> 
+        <img src="images/home-slide/slide-12.jpg" /> 
       </div>
-    <embed type="application/x-shockwave-flash" src="http://www.google.com/reader/ui/3523697345-audio-player.swf?backgroundColor=0xf9f3eb&autoPlay=true" flashvars="audioUrl=homepage.mp3" width="400" height="27" quality="best"></embed>
+
+      <div style="margin-top: 20px;">
+        <div id="audioplayer"></div>  
+      </div>  
     </div>
     <div class="six columns">
       <p>Esser Valley  Arabians, LLC (EVA) is an established show and sales facility, located in the  quaint village of Cleves, Ohio, just west of Cincinnati. The farm is family owned and operated by  Duane Esser and his wife, Sharon Dutweiller-Esser. EVA has intentionally been kept small in  order to provide the &lsquo;hands on care&rsquo; clients have come to expect. While  small, EVA boasts an 80' x 160' indoor arena (with sand mix footing), 30 stalls  and turn out, when requested.</p>
       <p>Duane is  well respected by his colleagues and has earned a reputation for being ethical,  as well as being kind to the horses in his care. Also, trainers know they will get the  unvarnished truth when seeking Duane&rsquo;s opinion regarding horses that have been  in training at EVA. On training, &ldquo;It  is critical to select the discipline for each horse based on the true ability  and talent of that horse&rdquo; stated Duane.  &ldquo;Horses must be started in a gentle, methodical way at a pace set by the  horse, again based on each horse individually.&rdquo;</p>
       <p>Whether you  are a beginning rider or one with championship goals, Duane offers the kind of  individual attention that you need to succeed. &quot;I have beginners and I have  riders that have a National Championship goal. Whatever they want, it is a  journey for them and I feel that they deserve my undivided attention.&quot;</p>
-<h4><em>Esser Valley Arabians</em></h4>
+      <h4><em>Esser Valley Arabians</em></h4>
       <p>9057 Jordan Rd.<br>
         Cleves, Ohio 45002</p>
       <p>Phone:   513-941-2737<br>
@@ -95,18 +98,18 @@
   <!-- InstanceEndEditable -->
   <!-- Footer -->
   <footer class="row">
-        <div class="six columns">
-          <ul class="link-list left">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="sale-horses.html">Sale Horses</a></li>
-            <li><a href="news-and-info.html">News &amp; Info</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="six columns">
-          <p align="right">&copy;2012 Esser Valley Arabians [ Design: <a href="http://www.arabhorse.com" target="_blank">Arabhorse.com</a>]</p>
-        </div>
+    <div class="six columns">
+      <ul class="link-list left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="sale-horses.html">Sale Horses</a></li>
+        <li><a href="news-and-info.html">News &amp; Info</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="six columns">
+      <p align="right">&copy;2012 Esser Valley Arabians [ Design: <a href="http://www.arabhorse.com" target="_blank">Arabhorse.com</a>]</p>
+    </div>
   </footer>
   
   </div>
@@ -159,7 +162,18 @@
    $(window).load(function() {
        $("#featured").orbit();
    });
-</script>
+  </script>
+
+  <script src="javascripts/audio-player.js"></script>
+  <script type="text/javascript">  
+    AudioPlayer.setup("flash/player.swf", {  
+        width: 85  
+    }); 
+    AudioPlayer.embed("audioplayer", {
+      soundFile: "music/homepage.mp3",
+      autostart: "yes"
+    });   
+  </script>
   
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
